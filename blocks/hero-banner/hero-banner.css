@@ -1,0 +1,113 @@
+.hero-banner {
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    opacity: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+.hero-banner .hero-banner-image-container picture {
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    width: 100%;
+}
+
+.hero-banner .hero-banner-specs-container {
+    position: absolute;
+    max-width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    bottom: 0;
+    padding: 80px;
+    background: linear-gradient(0deg, #000, #000 68%, rgba(0, 0, 0, .0001));
+    color: #fff;
+}
+
+.hero-banner .hero-banner-specs-container .hero-banner-specs-container-col-1 {
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+    padding: 0 15px;
+}
+
+.hero-banner .hero-banner-specs-container .hero-banner-specs-container-col-1 h2 {
+    font-family: "Nissan Bold", Verdana, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-transform: none;
+}
+
+.hero-banner .hero-banner-specs-container .hero-banner-specs-container-col-1 p {
+    font-family: "Nissan Regular", Verdana, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: none;
+    font-size: 42px;
+    line-height: 52px;
+    hyphens: none;
+    overflow-wrap: normal;
+}
+
+.hero-banner .hero-banner-specs-container .hero-banner-specs-container-col-2 {
+    flex: 0 0 16.5%;
+    max-width: 16.5%;
+    padding: 0 15px;
+}
+
+.hero-banner .hero-banner-specs-container .hero-banner-specs-container-col p {
+    font-family: "Nissan Light", Verdana, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: .9px;
+    line-height: 24px;
+    text-transform: none;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.hero-banner .hero-banner-specs-container .hero-banner-specs-container-col p:first-child {
+    font-family: "Nissan Regular", Verdana, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 34px;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.hero-banner .hero-banner-specs-container .hero-banner-specs-container-col-3 {
+    padding: 0 15px;
+}
+.hero-banner .hero-banner-specs-container .hero-banner-specs-container-col-4 {
+    padding: 0 15px;
+}
+.hero-banner .hero-banner-specs-container .hero-banner-specs-container-col-5 {
+    padding: 0 15px;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transition: all ease
+    }
+
+    to {
+        opacity: 1;
+        transition: all ease
+    }
+}

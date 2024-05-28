@@ -1,0 +1,221 @@
+.feature-banner-container {
+    position: relative;
+}
+
+.feature-banner-container .feature-banner-wrapper {
+    margin: 0;
+    max-width: 100%;
+    position: relative;
+}
+
+.feature-banner-container .feature-banner {
+    min-height: 100vh;
+}
+
+.feature-banner-container .banner-content-wrapper h3 {
+    font-family: "Nissan Light","Nissan Regular",Verdana,Arial,sans-serif;
+    font-size: 53px;
+    line-height: 57px;
+    letter-spacing: 1.05px;
+    position: relative;
+    text-transform: none!important;
+    -webkit-animation: moveBox 1s;
+    animation: moveBox 1s;
+    color: #fff;
+    margin: -9px 0 24px;
+    padding-right: 45px
+}
+
+.feature-banner-container .banner-content-wrapper p {
+    color: #fff;
+    font-family: "Nissan Light","Nissan Regular",Verdana,Arial,sans-serif;
+    font-size: 16px;
+    letter-spacing: .9px;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    -webkit-animation: moveBox 1s;
+    animation: moveBox 1s;
+    margin: 0;
+    position: relative;
+}
+
+.feature-banner-container .banner-content-wrapper .banner-text-section p {
+    top: 262px;
+}
+
+.feature-banner-container .feature-banner .banner-image-wrapper picture {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.feature-banner-container .feature-banner .banner-content-wrapper {
+    position: relative;
+    z-index: 10;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100vh;
+    padding-left: 126px;
+}
+
+.feature-banner-container .feature-banner .banner-content-wrapper .banner-cta-section {
+    margin-top: 40px;
+}
+
+.feature-banner-container .feature-banner .banner-cta-section .button-container a {
+    display: inline;
+    font-family: "Nissan Bold","Nissan Regular",Verdana,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.9px;
+    line-height: 1.2;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+.feature-banner-container .feature-banner .banner-cta-section {
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    animation: moveBox 1s;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+}
+
+.feature-banner-container .feature-banner:not(.primary-button) .banner-cta-section p:first-child {
+    font-size: 3rem;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-banner-container .feature-banner .banner-section-name {
+    width: 20px;
+    background: transparent;
+    position: absolute;
+    left: 60px;
+    top: 87px;
+}
+
+.feature-banner-container .feature-banner .banner-section-name p {
+    font-family: "Nissan Light","Nissan Regular",Verdana,Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.96px;
+    margin: 0;
+    align-items: flex-start;
+    -webkit-animation: grownBox 4s forwards;
+    animation: grownBox 4s forwards;
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    color: #fff;
+    display: flex;
+    font-family: "Nissan Bold","Nissan Regular",Verdana,Arial,sans-serif;
+    line-height: 20px;
+    opacity: 0;
+    overflow: hidden;
+    text-align: right;
+    -webkit-text-orientation: sideways;
+    text-orientation: sideways;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    width: 20px;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr
+}
+
+.feature-banner-container .feature-banner .banner-section-name hr {
+    overflow: hidden;
+    -webkit-animation: createBox 2s forwards;
+    animation: createBox 2s forwards;
+    background: #fff;
+    height: 100vh;
+    left: 8px;
+    min-width: 3px;
+    opacity: 0;
+    width: 3px;
+    color: #fff;
+}
+
+.feature-banner-container .feature-banner:not(.primary-button) .banner-section-name hr {
+    position: absolute;
+}
+
+.feature-banner-container .gradient {
+    bottom: 0;
+    height: auto;
+    min-height: 100vh;
+    position: absolute;
+    z-index: 9;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0) 224px, rgba(0, 0, 0, 0) 445px, rgb(0, 0, 0));
+}
+
+.feature-banner-container .feature-banner.primary-button .banner-content-wrapper .banner-cta-section p a {
+    border-radius: 24px;
+    display: inline-block;
+    font-family: "Nissan Bold",Verdana,Arial,sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.9px;
+    line-height: normal;
+    margin: 0;
+    padding: 13px 28px;
+    transition: background-color .3s linear;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: #fff;
+    color: #020a0d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@keyframes moveBox {
+    0% {
+        top: 50px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes grownBox {
+    0% {
+        max-height: 0;
+        opacity: 1;
+        bottom: -41px
+    }
+
+    to {
+        max-height: 100%;
+        opacity: 1;
+        bottom: 0
+    }
+}
+
+@keyframes createBox {
+    0% {
+        height: 0;
+        opacity: 1
+    }
+
+    to {
+        height: 72vh;
+        min-height: 100%;
+        opacity: 1
+    }
+}

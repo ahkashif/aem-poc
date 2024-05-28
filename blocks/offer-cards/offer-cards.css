@@ -1,0 +1,151 @@
+.offer-cards-wrapper {
+    background-color: #e5e5e5;
+}
+
+.offer-cards {
+    margin: 0 6%;
+    padding: 80px 0;
+}
+
+.offer-cards .offer-cards-header {
+    margin-bottom: 40px;
+}
+
+.offer-cards .offer-cards-header h2 {
+    font-family: "Nissan Regular", Verdana, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: none;
+    font-size: 42px;
+    line-height: 52px;
+    hyphens: none;
+    overflow-wrap: normal;
+}
+
+.offer-cards .offer-cards-header p {
+    font-family: "Nissan Regular", Verdana, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .9px;
+    line-height: 26px;
+    text-transform: none;
+    margin-bottom: 8px;
+}
+
+.offer-cards .offer-cards-content {
+    display: flex;
+    gap: 30px;
+}
+
+.offer-cards .offer-cards-content div.card {
+    flex-basis: 50%;
+    max-width: 50%;
+    width: 100%;
+}
+
+.offer-cards .offer-cards-content div h4 {
+    font-family: "Nissan Bold", Verdana, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-transform: none;
+    hyphens: none;
+    overflow-wrap: normal;
+    margin-bottom: 8px;
+}
+
+.offer-cards .offer-cards-content div h3 {
+    font-family: "Nissan Regular", Verdana, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: none;
+    font-size: 24px;
+    line-height: 34px;
+    hyphens: none;
+    overflow-wrap: normal;
+}
+
+.offer-cards .offer-cards-content div h5 {
+    font-family: "Nissan Regular", Verdana, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .9px;
+    line-height: 26px;
+    text-transform: none;
+    hyphens: none;
+    overflow-wrap: normal;
+    margin-bottom: 40px;
+}
+
+.offer-cards .offer-cards-content div picture {
+    background-color: #fff;
+    padding-top: 56.25%;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.offer-cards .offer-cards-content div picture img {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.offer-cards .offer-cards-content div p {
+    font-family: "Nissan Regular", Verdana, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .9px;
+    line-height: 24px;
+    text-transform: none;
+    margin-top: 20px;
+}
+
+.offer-cards .offer-cards-content .button-container a {
+    font-family: "Nissan Bold", Verdana, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-transform: none;
+    border-bottom: 3px solid #000;
+    color: #000;
+    cursor: pointer;
+    line-height: 24px;
+    padding-bottom: 8px;
+    text-decoration: none;
+}
+
+.offer-cards .offer-cards-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.offer-cards .offer-cards-footer .button-container a {
+    transition: background .3s cubic-bezier(.77,0,.18,1);
+    background: #000;
+    color: #fff;
+    font-family: "Nissan Bold", "Nissan Light", Verdana, Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-size: 16px;
+    line-height: 20.4px;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    display: grid;
+    align-items: center;
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    border-radius: 40px;
+}

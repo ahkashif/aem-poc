@@ -1,0 +1,83 @@
+.feature-card-wrapper {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.feature-card-wrapper .feature-card .feature-card-section-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.feature-card-wrapper .feature-card .feature-card-section-wrapper div {
+    max-width: 50%;
+}
+
+.feature-card-wrapper .feature-card .feature-card-section-wrapper .feature-card-section-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    order: 0;
+    max-width: 50%;
+    padding-right: 64px;
+}
+
+.feature-card-wrapper .feature-card .feature-card-section-wrapper .feature-card-section-1 h3 {
+    font-family: "Nissan Regular", Verdana, Arial, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 40px;
+    hyphens: none;
+    overflow-wrap: normal;
+}
+
+.feature-card-wrapper .feature-card .feature-card-section-wrapper .feature-card-section-1 p {
+    font-family: "Nissan Light", Verdana, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: .9px;
+    line-height: 24px;
+    text-transform: none;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.feature-card-wrapper .feature-card .feature-card-section-wrapper .feature-card-section-2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    min-height: 1px;
+    position: relative;
+    width: 100%;
+}
+
+.feature-card-wrapper .feature-card .feature-card-section-wrapper .feature-card-section-2 picture img {
+    height: auto;
+}
+.feature-card-wrapper .feature-card .feature-card-section-wrapper .feature-card-section-1 .button-container a {
+    transition: background .3s cubic-bezier(.77,0,.18,1);
+    background: #000;
+    color: #fff;
+    font-family: "Nissan Bold", "Nissan Light", Verdana, Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-size: 16px;
+    line-height: 20.4px;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    display: grid;
+    align-items: center;
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    border-radius: 40px;
+}
+
+.feature-card-wrapper .feature-card .feature-card-section-wrapper .feature-card-section-1 .button-container a:hover {
+    color: #fff;
+    text-decoration: none;
+}

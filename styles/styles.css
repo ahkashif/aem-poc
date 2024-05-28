@@ -20,9 +20,9 @@
   --text-color: black;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
-  --heading-font-family: var(--body-font-family);
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --body-font-family: 'Nissan Regular',roboto, roboto-fallback;
+  --heading-font-family: 'Nissan Regular',roboto, roboto-fallback;
+  --fixed-font-family: 'Nissan Regular',roboto, roboto-fallback;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -39,6 +39,13 @@
 
   /* nav height */
   --nav-height: 64px;
+
+  --overlap-value: -80px;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 @font-face {
@@ -74,7 +81,12 @@ body.appear {
 }
 
 header {
-  height: var(--nav-height);
+  background-color: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -83,12 +95,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-  scroll-margin: calc(var(--nav-height) + 1em);
+  word-break: keep-all;
 }
 
 h1 { font-size: var(--heading-font-size-xxl); }
@@ -98,7 +105,7 @@ h4 { font-size: var(--heading-font-size-m); }
 h5 { font-size: var(--heading-font-size-s); }
 h6 { font-size: var(--heading-font-size-xs); }
 
-p,
+/* p,
 dl,
 ol,
 ul,
@@ -106,6 +113,10 @@ pre,
 blockquote {
   margin-top: 1em;
   margin-bottom: 1em;
+} */
+
+a {
+  color: #8a8a8a;
 }
 
 code,
@@ -131,7 +142,7 @@ main pre {
 }
 
 /* links */
-a:any-link {
+/* a:any-link {
   color: var(--link-color);
   text-decoration: none;
 }
@@ -142,6 +153,7 @@ a:hover {
 }
 
 /* buttons */
+/*
 a.button:any-link,
 button {
   font-family: var(--body-font-family);
@@ -182,12 +194,11 @@ button.secondary {
   background-color: unset;
   border: 2px solid currentcolor;
   color: var(--text-color);
-}
+} */
 
 main img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+  width: 100%;
+  object-fit: cover;
 }
 
 .icon {
@@ -202,7 +213,7 @@ main img {
 }
 
 /* sections */
-main .section {
+/* main .section {
   padding: 64px 16px;
 }
 
@@ -210,12 +221,17 @@ main .section {
   main .section {
     padding: 64px 32px;
   }
-}
+} */
 
 @media (width >= 900px) {
   .section > div {
-    max-width: 1200px;
+    max-width: 84%;
     margin: auto;
+  }
+
+  .section > div.full-width {
+    max-width: 100%;
+    width: 100%;
   }
 }
 

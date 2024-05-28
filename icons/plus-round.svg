@@ -1,0 +1,9 @@
+<svg class="wds-IconButton-button-svg" id="Capa_1" version="1.1" viewBox="0 0 87 87" x="0px"
+    xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" y="0px" style="visibility: visible;">
+    <linearGradient gradientTransform="matrix(86 0 0 86 -1140.5 -2258.5)" gradientUnits="userSpaceOnUse" id="SVGID_WDS_1_" x1="13.7674" x2="13.7674" y1="26.2675" y2="27.2675"><stop offset="0" style="stop-color: rgb(255, 255, 255);"></stop><stop offset="1" style="stop-color: rgb(255, 255, 255);"></stop></linearGradient>
+    <circle class="st-1" cx="43.5" cy="43.5" r="41" stroke="url(#SVGID_WDS_1_)"></circle>
+    <polygon class="st-2-light" id="plus" points="57.5,40.5 46.5,40.5 46.5,29.5 40.5,29.5 40.5,
+            40.5 29.5,40.5 29.5,46.5 40.5,46.5 40.5,
+            57.5 46.5,57.5 46.5,46.5 57.5,46.5"></polygon>
+</svg>
