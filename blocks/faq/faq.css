@@ -1,0 +1,88 @@
+.faq-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f5f4f3;
+}
+
+.faq-wrapper .faq {
+    padding: 80px;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.faq-wrapper .faq:last-child, .faq-wrapper .faq:first-child {
+    border-bottom: none;
+}
+
+.faq-wrapper .faq>div {
+    padding: 15px;
+    cursor: pointer;
+    
+}
+
+.faq-wrapper .faq.active>div>div {
+    display: block;
+}
+
+.faq-wrapper .faq .QandA {
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.faq-wrapper .faq p.question {
+    margin: 0;
+    font-weight: 700;
+    font-family: "Nissan Bold", "Nissan Light", Verdana, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    letter-spacing: 1.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-wrapper .faq p.question::after {
+    content: '+';
+    font-family: "Nissan Light", Verdana, Arial, sans-serif;
+    font-size: 30px;
+}
+
+.faq-wrapper .faq .active p.question::after {
+    content: '-';
+    font-family: "Nissan Light", Verdana, Arial, sans-serif;
+    font-size: 30px;
+}
+
+
+.faq-wrapper .faq p.answer {
+    font-family: "Nissan Light", Verdana, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+    overflow-wrap: break-word !important;
+    text-transform: none;
+    width: 80%;
+    font-size: 16px;
+    padding-right: 2%;
+    margin-bottom: 8px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+.faq-wrapper .faq .active p.answer {
+    display: block;
+    height: auto;
+    opacity: 1;
+    overflow: hidden;
+    padding-top: 20px;
+    transition: all .3s ease;
+}
