@@ -28,7 +28,8 @@
     justify-content: space-between;
     bottom: 0;
     padding: 80px;
-    background: linear-gradient(0deg, #000, #000 68%, rgba(0 0 0 .01%));
+    /* stylelint-disable-next-line color-function-notation */
+    background: linear-gradient(0deg, #000, #000 68%, rgba(0, 0, 0, .01%));
     color: #fff;
 }
 

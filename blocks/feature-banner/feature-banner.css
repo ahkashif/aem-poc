@@ -150,7 +150,8 @@
     top: -1px;
     left: 0;
     width: 100%;
-    background: linear-gradient(rgb(0 0 0), rgba(0 0 0 0%) 224px, rgba(0 0 0 0%) 445px, rgb(0 0 0));
+    /* stylelint-disable-next-line color-function-notation */
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0%) 224px, rgba(0, 0, 0, 0%) 445px, rgb(0, 0, 0));
 }
 
 .feature-banner-container .feature-banner.primary-button .banner-content-wrapper .banner-cta-section p a {
