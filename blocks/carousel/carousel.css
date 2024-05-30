@@ -1,0 +1,30 @@
+.carousel {
+    display: flex;
+    padding: 80px 0;
+    position: relative;
+}
+
+.carousel .carousel-block-item {
+    max-width: 50%;
+}
+
+.carousel .carousel-block-item.carousel-block-item-2 {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+
+.carousel .carousel-block-item.carousel-block-item-2 > div {
+    padding: 0 20px;
+}
+
+.carousel .carousel-block-item.carousel-block-item-2 > div picture img {
+    width: 380px;
+    height: auto;
+}
+
+.carousel .carousel-block-item.carousel-block-item-3 .button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

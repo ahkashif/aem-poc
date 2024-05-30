@@ -93,7 +93,6 @@
     margin: auto;
     position: absolute;
     right: 0;
-    top: 0;
     display: block;
     height: auto;
     width: 100%;
@@ -114,7 +113,6 @@
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 2px;
-    line-height: 26px;
     text-transform: none;
     border-bottom: 3px solid #000;
     color: #000;

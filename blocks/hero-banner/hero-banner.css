@@ -1,11 +1,7 @@
 .hero-banner {
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-    -webkit-animation-delay: 1s;
+    animation: fadein 1s;
     animation-delay: 1s;
-    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
     display: flex;
     flex-direction: column;
@@ -32,7 +28,7 @@
     justify-content: space-between;
     bottom: 0;
     padding: 80px;
-    background: linear-gradient(0deg, #000, #000 68%, rgba(0, 0, 0, .0001));
+    background: linear-gradient(0deg, #000, #000 68%, rgba(0 0 0 .01%));
     color: #fff;
 }
 
@@ -92,21 +88,23 @@
 .hero-banner .hero-banner-specs-container .hero-banner-specs-container-col-3 {
     padding: 0 15px;
 }
+
 .hero-banner .hero-banner-specs-container .hero-banner-specs-container-col-4 {
     padding: 0 15px;
 }
+
 .hero-banner .hero-banner-specs-container .hero-banner-specs-container-col-5 {
     padding: 0 15px;
 }
 
 
-@keyframes fadeIn {
+@keyframes fadein {
     0% {
         opacity: 0;
         transition: all ease
     }
 
-    to {
+    100% {
         opacity: 1;
         transition: all ease
     }

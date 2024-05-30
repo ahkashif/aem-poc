@@ -2,7 +2,7 @@
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
     background-color: #f5f4f3;
 }
 
@@ -10,8 +10,7 @@
     padding: 80px;
     border-bottom: none;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-flow: column nowrap;
     justify-content: flex-start;
     gap: 25px;
 }
@@ -30,7 +29,7 @@
     display: block;
 }
 
-.faq-wrapper .faq .QandA {
+.faq-wrapper .faq .q-and-a {
     padding: 0;
     border-bottom: 1px solid #ccc;
     padding-bottom: 15px;
@@ -42,7 +41,7 @@
     font-family: "Nissan Bold", "Nissan Light", Verdana, Arial, sans-serif;
     font-size: 16px;
     line-height: 26px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     letter-spacing: 1.5px;
     display: flex;
     justify-content: space-between;

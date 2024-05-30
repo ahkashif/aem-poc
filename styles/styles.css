@@ -39,7 +39,6 @@
 
   /* nav height */
   --nav-height: 64px;
-
   --overlap-value: -80px;
 }
 
@@ -99,10 +98,13 @@ h6 {
 }
 
 h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
+
 h3 { font-size: var(--heading-font-size-l); }
+
 h4 { font-size: var(--heading-font-size-m); }
+
 h5 { font-size: var(--heading-font-size-s); }
+
 h6 { font-size: var(--heading-font-size-xs); }
 
 h2 {
@@ -151,6 +153,7 @@ main pre {
 }
 
 /* links */
+
 /* a:any-link {
   color: var(--link-color);
   text-decoration: none;
@@ -162,7 +165,9 @@ a:hover {
 }
 
 /* buttons */
+
 /*
+
 a.button:any-link,
 button {
   font-family: var(--body-font-family);
@@ -222,6 +227,7 @@ main img {
 }
 
 /* sections */
+
 /* main .section {
   padding: 64px 16px;
 }
@@ -245,6 +251,7 @@ main img {
 }
 
 /* section metadata */
+
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
@@ -282,7 +289,6 @@ main div.button-container a.button.button-with-icon.icon-right-arrow {
   color: #020a0d;
   font-family: "Nissan Bold", Verdana, Arial, sans-serif;
   font-weight: 700;
-  letter-spacing: 1.9px;
   font-size: 16px;
   letter-spacing: 1.9px;
   line-height: 1.63;
